@@ -1,24 +1,3 @@
-"""
-BlinkEye
---------
-A clean, minimal desktop image viewer for Windows.
-
-Features:
-- "Open Image..." button to browse and select an image file
-- Left sidebar shows tabs for opened images, split into a Pinned section
-  and a Recent section
-- Recent section keeps only the 3 most recently IMPORTED images (not
-  most recently viewed). Pinned tabs are exempt from that limit.
-- Drag and drop to reorder tabs within their section
-- Right-click a tab for a menu: Pin/Unpin, Move Up/Down, Rename, Remove,
-  Properties (file info + EXIF metadata)
-- Scroll wheel to zoom, centered on the cursor position
-- Default view fits the image to the window ("fill")
-- Window can be resized; image rescales with it
-
-Build to a standalone .exe with PyInstaller (see build.bat / README.md).
-"""
-
 import os
 import time
 import tkinter as tk
